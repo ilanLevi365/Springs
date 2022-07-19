@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/springs/static/css/main.c7ea6c85.css",
-    "main.js": "/springs/static/js/main.add5f7fa.js",
+    "main.css": "/springs/static/css/main.823c7e72.css",
+    "main.js": "/springs/static/js/main.3960406b.js",
     "static/js/236.cd0c7f80.chunk.js": "/springs/static/js/236.cd0c7f80.chunk.js",
     "static/js/703.7da9c897.chunk.js": "/springs/static/js/703.7da9c897.chunk.js",
     "static/js/598.55f256e7.chunk.js": "/springs/static/js/598.55f256e7.chunk.js",
@@ -25,15 +25,15 @@
     "static/media/word_hader.png": "/springs/static/media/word_hader.c8c4ff5ebca5f57eff85.png",
     "static/media/logo_Black.png": "/springs/static/media/logo_Black.67ef9af737e6433a02fa.png",
     "index.html": "/springs/index.html",
-    "main.c7ea6c85.css.map": "/springs/static/css/main.c7ea6c85.css.map",
-    "main.add5f7fa.js.map": "/springs/static/js/main.add5f7fa.js.map",
+    "main.823c7e72.css.map": "/springs/static/css/main.823c7e72.css.map",
+    "main.3960406b.js.map": "/springs/static/js/main.3960406b.js.map",
     "236.cd0c7f80.chunk.js.map": "/springs/static/js/236.cd0c7f80.chunk.js.map",
     "703.7da9c897.chunk.js.map": "/springs/static/js/703.7da9c897.chunk.js.map",
     "598.55f256e7.chunk.js.map": "/springs/static/js/598.55f256e7.chunk.js.map",
     "787.e02b331e.chunk.js.map": "/springs/static/js/787.e02b331e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7ea6c85.css",
-    "static/js/main.add5f7fa.js"
+    "static/css/main.823c7e72.css",
+    "static/js/main.3960406b.js"
   ]
 }
