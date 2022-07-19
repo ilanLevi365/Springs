@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/springs/static/css/main.c7ea6c85.css",
+    "main.js": "/springs/static/js/main.add5f7fa.js",
+    "static/js/236.cd0c7f80.chunk.js": "/springs/static/js/236.cd0c7f80.chunk.js",
+    "static/js/703.7da9c897.chunk.js": "/springs/static/js/703.7da9c897.chunk.js",
+    "static/js/598.55f256e7.chunk.js": "/springs/static/js/598.55f256e7.chunk.js",
+    "static/js/787.e02b331e.chunk.js": "/springs/static/js/787.e02b331e.chunk.js",
+    "static/media/Video_Home_Regular.mp4": "/springs/static/media/Video_Home_Regular.b752e20034aab4b7775d.mp4",
+    "static/media/Earrings_Clip.mp4": "/springs/static/media/Earrings_Clip.33522bf46fd78178cea4.mp4",
+    "static/media/stamp.png": "/springs/static/media/stamp.d5f1b5b914ad9f7c63b7.png",
+    "static/media/fasebook.jpg": "/springs/static/media/fasebook.531c97c8164ecae057c5.jpg",
+    "static/media/Currency.png": "/springs/static/media/Currency.f7ebb92945c66493c078.png",
+    "static/media/Book.png": "/springs/static/media/Book.0f0865ed48d153ed1ae2.png",
+    "static/media/Horse.png": "/springs/static/media/Horse.091f0e1c6f2087633a49.png",
+    "static/media/Card.png": "/springs/static/media/Card.fc97f15c1a18ac59f522.png",
+    "static/media/instagram.png": "/springs/static/media/instagram.b13a872749a4bd01fa1c.png",
+    "static/media/about_Us.png": "/springs/static/media/about_Us.d9d0131ac3c8edfe0c13.png",
+    "static/media/rings_Poster.jpg": "/springs/static/media/rings_Poster.ae21d8b7c85b3305bffa.jpg",
+    "static/media/earrings_Poster.jpg": "/springs/static/media/earrings_Poster.5f79900d3456a00da69d.jpg",
+    "static/media/FoolDiamond.webp": "/springs/static/media/FoolDiamond.e0a3b8ba29070f4e9984.webp",
+    "static/media/company_Logo.png": "/springs/static/media/company_Logo.03587fb181b6c2d43e8b.png",
+    "static/media/Diamonds.webp": "/springs/static/media/Diamonds.079147266948269b84a9.webp",
+    "static/media/logo_White.png": "/springs/static/media/logo_White.f4c8104ceea274085001.png",
+    "static/media/word_hader.png": "/springs/static/media/word_hader.c8c4ff5ebca5f57eff85.png",
+    "static/media/logo_Black.png": "/springs/static/media/logo_Black.67ef9af737e6433a02fa.png",
+    "index.html": "/springs/index.html",
+    "main.c7ea6c85.css.map": "/springs/static/css/main.c7ea6c85.css.map",
+    "main.add5f7fa.js.map": "/springs/static/js/main.add5f7fa.js.map",
+    "236.cd0c7f80.chunk.js.map": "/springs/static/js/236.cd0c7f80.chunk.js.map",
+    "703.7da9c897.chunk.js.map": "/springs/static/js/703.7da9c897.chunk.js.map",
+    "598.55f256e7.chunk.js.map": "/springs/static/js/598.55f256e7.chunk.js.map",
+    "787.e02b331e.chunk.js.map": "/springs/static/js/787.e02b331e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ea6c85.css",
+    "static/js/main.add5f7fa.js"
+  ]
+}
