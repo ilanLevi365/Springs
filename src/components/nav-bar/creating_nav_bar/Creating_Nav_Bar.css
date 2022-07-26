@@ -335,9 +335,9 @@
     }
 
     .Hands {
-        position: absolute;
-        top: 6px;
-        right: 118px;
+       position: absolute;
+        margin-top: 3px;
+        margin-left: 83px;
         border-radius: 50%;
         width: 4px;
         height: 4px;
