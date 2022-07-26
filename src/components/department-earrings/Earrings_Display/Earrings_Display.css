@@ -1,0 +1,54 @@
+.Earrings_Display {
+   align-items: center;
+}
+
+.Earrings_Display-Title {
+   display: flex;
+   justify-content: center;
+}
+
+.Earrings_Display-Div_Video {
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;
+   background-color: black;
+   margin-top: 20px;
+   width: 100%;
+   height: 800px;
+}
+
+#img_Fabulous {
+   width: 500px;
+}
+
+@media(max-width: 900px) {
+
+   .Earrings_Display {
+      align-items: center;
+      width: 100%;
+   }
+
+   .Earrings_Display-Title {
+      display: flex;
+      justify-content: center;
+   }
+
+   .Earrings_Display-Div_Video {
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      margin-top: 20px;
+      width: 100%;
+      height: 400px;
+   }
+
+   #img_Fabulous {
+      padding-top: 25px;
+      width: 340px;
+   }
+
+   .Earrings_Display-Items {
+      width: 100%;
+   }
+}

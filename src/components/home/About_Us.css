@@ -1,0 +1,475 @@
+@keyframes About_Us {
+    0% {
+        width: 100%;
+        height: 100%;
+        margin-top: -235px;
+    }
+
+    100% {
+        width: 100%;
+        height: 945%;
+        margin-top: 0px;
+    }
+}
+
+
+
+#img_About_us {
+    position: absolute;
+    top: 25px;
+    right: -555px;
+    width: 150px;
+}
+
+.About_Us {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    left: 0px;
+    margin-top: -235px;
+    background-color: black;
+    animation: About_Us 1.8s ease-in-out 0s forwards;
+}
+
+
+@keyframes turn_Off {
+    0% {
+        width: 100%;
+        height: 945%;
+        margin-top: 0px;
+        right: 0px;
+    }
+
+    100% {
+        width: 100%;
+        height: 945%;
+        margin-top: 0px;
+        right: 1400px;
+    }
+}
+
+
+.turn_Off {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    margin-top: 0px;
+    background-color: black;
+    animation: turn_Off 1s ease-in-out 0s forwards;
+}
+
+@keyframes btn_Close {
+    0% {
+        color: black;
+        height: 55px;
+        width: 55px;
+        font-size: 16px;
+        bottom: 30px;
+        cursor: pointer;
+    }
+
+    100% {
+        color: black;
+        height: 52px;
+        width: 52px;
+        font-size: 15px;
+        cursor: pointer;
+        bottom: 30px;
+    }
+}
+
+
+#btn_Close {
+    background-color: white;
+    opacity: 1;
+    color: white;
+    height: 55px;
+    width: 55px;
+    right: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 5px white;
+    animation: btn_Close 1s ease-in-out 0s infinite;
+    bottom: 30px;
+}
+
+#btn_Close:active {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
+    opacity: 1;
+}
+
+#btn_Close:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px white;
+    border: 1px solid black;
+    opacity: 1;
+}
+
+@keyframes btn_About_Us {
+    0% {
+        color: black;
+        height: 55px;
+        width: 55px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    100% {
+        color: black;
+        height: 52px;
+        width: 52px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
+
+
+#btn_About_Us {
+    background-color: white;
+    opacity: 0;
+    color: white;
+    height: 55px;
+    width: 55px;
+    right: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    animation: btn_About_Us 1s ease-in-out 0s infinite;
+    margin-top: 1000px;
+}
+
+#btn_About_Us:active {
+    cursor: pointer;
+    border: 1px solid black;
+    opacity: 0;
+}
+
+#img_Horse {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 970px;
+    width: 127px;
+}
+
+@keyframes player-wraper {
+    0% {
+        top: 600px;
+        left: -500px;
+        width: 550px;
+    }
+
+    100% {
+        top: 600px;
+        width: 550px;
+        left: 110px;
+    }
+}
+
+.player-wraper {
+    position: absolute;
+    left: -530px;
+    top: 600px;
+    width: 0px;
+    animation: player-wraper 0.6s ease-in-out 2.5s forwards
+}
+
+@keyframes subtitles {
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.subtitles {
+    position: absolute;
+    color: black;
+    width: 270px;
+    height: 300px;
+    bottom: 130px;
+    right: 100px;
+    text-align: right;
+    font-size: 13px;
+    font-family: arial;
+    animation: subtitles 1.5s ease-in-out 1.5s forwards
+}
+
+.Icons {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    padding: 20px;
+    display: inline-block;
+}
+
+#fasebook {
+    width: 70px;
+    padding-right: 20px;
+}
+
+#instagram {
+    width: 93px;
+    padding-right: 20px;
+}
+
+#youTube {
+    width: 90px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+}
+
+#C {
+    font-size: 12.5px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 10px;
+    bottom: 10px;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    @keyframes About_Us {
+        0% {
+            width: 100%;
+            height: 100%;
+            margin-top: -235px;
+        }
+
+        100% {
+            width: 100%;
+            height: 1830%;
+            margin-top: 0px;
+        }
+    }
+
+
+    .About_Us {
+        color: white;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        left: 0px;
+        margin-top: -235px;
+        background-color: black;
+        animation: About_Us 1.8s ease-in-out 0s forwards;
+    }
+
+
+    @keyframes turn_Off {
+        0% {
+            width: 100%;
+            height: 1830%;
+            margin-top: 0px;
+        }
+
+        100% {
+            width: 100%;
+            height: 1830%;
+            margin-top: 0px;
+            right: 1400px;
+        }
+    }
+
+
+    .turn_Off {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        margin-top: 0px;
+        background-color: black;
+        animation: turn_Off 1s ease-in-out 0s forwards;
+    }
+
+    @keyframes btn_Close {
+        0% {
+            color: black;
+            height: 55px;
+            width: 55px;
+            font-size: 16px;
+            bottom: 42px;
+            cursor: pointer;
+        }
+
+        100% {
+            color: black;
+            height: 52px;
+            width: 52px;
+            font-size: 15px;
+            cursor: pointer;
+            bottom: 42px;
+        }
+    }
+
+
+    #btn_Close {
+        background-color: white;
+        opacity: 1;
+        color: white;
+        height: 55px;
+        width: 55px;
+        right: 30px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        box-shadow: 0px 0px 5px white;
+        animation: btn_Close 1s ease-in-out 0s infinite;
+        bottom: 42px;
+    }
+
+    #btn_Close:active {
+        cursor: pointer;
+        box-shadow: 0px 0px 20px black;
+        opacity: 1;
+    }
+
+    #btn_Close:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 15px white;
+        border: 1px solid black;
+        opacity: 1;
+    }
+
+    @keyframes btn_About_Us {
+        0% {
+            color: black;
+            height: 55px;
+            width: 55px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 1120px;
+        }
+
+        100% {
+            color: black;
+            height: 52px;
+            width: 52px;
+            font-size: 15px;
+            cursor: pointer;
+            margin-top: 1120px;
+        }
+    }
+
+
+    #btn_About_Us {
+        background-color: white;
+        opacity: 0;
+        color: white;
+        height: 55px;
+        width: 55px;
+        right: 30px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        animation: btn_About_Us 1s ease-in-out 0s infinite;
+        margin-top: 1120px;
+    }
+
+    #btn_About_Us:active {
+        cursor: pointer;
+        border: 1px solid black;
+        opacity: 0;
+    }
+
+    #img_Horse {
+        position: absolute;
+        bottom: 0px;
+        margin-left: 0px;
+        width: 0px;
+    }
+
+    @keyframes player-wraper {
+        0% {
+            top: 900px;
+            left: -200px;
+            width: 330px;
+        }
+
+        100% {
+            top: 900px;
+            width: 330px;
+            left: 23px;
+        }
+    }
+
+    .player-wraper {
+        position: absolute;
+        align-items: center;
+        left: 0px;
+        top: 900px;
+        width: 0px;
+        animation: player-wraper 1.5s ease-in-out 3s forwards
+    }
+
+    @keyframes subtitles {
+        0% {
+            color: black;
+        }
+
+        100% {
+            color: white;
+        }
+    }
+
+    .subtitles {
+        position: absolute;
+        color: black;
+        width: 270px;
+        height: 300px;
+        bottom: 270px;
+        right: 20px;
+        text-align: right;
+        font-size: 13px;
+        font-family: arial;
+        animation: subtitles 1.5s ease-in-out 1.5s forwards
+    }
+
+    .Icons {
+        display: inline-block;
+        position: absolute;
+        bottom: 80px;
+        left: 55px;
+        padding: 20px;
+    }
+
+    #fasebook {
+        display: inline-block;
+        width: 50px;
+        padding-right: 20px;
+    }
+
+    #instagram {
+        display: inline-block;
+        width: 63px;
+        padding-right: 20px;
+    }
+
+    #youTube {
+        display: inline-block;
+        width: 65px;
+        padding-right: 20px;
+    }
+
+    #C {
+        font-size: 12.5px;
+        position: absolute;
+        color: white;
+        width: 100%;
+        height: 10px;
+        bottom: 10px;
+        text-align: center;
+    }
+}

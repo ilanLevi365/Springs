@@ -1,0 +1,125 @@
+.Shopping_Crt {
+  align-items: right;
+  font-family: arial;
+  text-align: right;
+  letter-spacing: 0.2px;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.Shopping_Crt-Empty {
+  font-family: arial;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 9.5px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+
+}
+
+.Shopping_Crt-Words {
+  margin-right: 95px;
+  margin-top: 80px;
+}
+
+.Shopping_Crt-Items {
+  margin-right: 70px;
+  margin-top: -60px;
+  display: flex;
+  float: right;
+}
+
+.Pament_total_Pric {
+  font-weight: bold;
+  padding-bottom: 70px;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 400px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 500px;
+  padding-top: 30px;
+  font-size: 12px;
+  width: 650px;
+}
+
+#words-Shopping_Crt {
+  font-size: 23px;
+}
+
+#words-Items {
+  font-size: 10.5px;
+}
+
+.Shopping_Crt-Items ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.p_Total_Price {
+  margin-top: -7px;
+  margin-left: -125px;
+}
+
+@media(max-width: 900px) {
+  .Shopping_Crt {
+    align-items: right;
+    font-family: arial;
+    text-align: right;
+    letter-spacing: 0.2px;
+    margin-top: -20px;
+  }
+
+  .Shopping_Crt-Empty {
+    font-family: arial;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 9.5px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+
+  }
+
+  .Shopping_Crt-Words {
+    margin-right: 45px;
+    margin-top: 80px;
+  }
+
+  .Shopping_Crt-Items {
+    margin-right: 35px;
+    margin-top: -60px;
+    display: flex;
+    float: right;
+  }
+
+  .Pament_total_Pric {
+    position: relative;
+    font-weight: bold;
+    padding-bottom: 140px;
+    padding-left: 240px;
+    padding-right: 0px;
+    display: flex;
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left: 60px;
+    padding-top: 30px;
+    width: 70px;
+  }
+
+  #words-Shopping_Crt {
+    font-size: 23px;
+  }
+
+  #words-Items {
+    font-size: 10.5px;
+  }
+
+  .p_Total_Price {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -110px;
+  }
+}

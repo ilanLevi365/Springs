@@ -1,0 +1,163 @@
+.item_Purchased {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#contents_qty {
+    margin-left: 193px;
+}
+
+.item_Purchased-VideoRing {
+    width: 170px;
+    height: 190px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: -5px;
+}
+
+.item_Purchased-VideoEarring {
+    width: 170px;
+    height: 190px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+
+.Kav {
+    position: absolute;
+    border-right: 1px solid black;
+    margin-top: -70px;
+    width: 1px;
+    height: 200px;
+    margin-left: 160px;
+}
+
+.details-Material {
+    margin-top: -110px;
+    padding-right: 50px;
+    text-align: right;
+    font-size: 10px;
+    font-family: arial;
+    margin-left: 20px;
+}
+
+.Purchase_Details {
+    margin-right: -16px;
+    margin-top: -70px;
+    text-align: right;
+    font-size: 12px;
+    font-family: arial;
+}
+
+#purchase_Time {
+    /* position: relative; */
+    width: 240px;
+}
+
+#Nam {
+    margin-top: 22px;
+}
+
+#Pric {
+    margin-top: 33px;
+}
+
+@media(max-width: 900px) {
+    .item_Purchased {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 20px;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+
+    #contents_qty {
+        margin-left: 193px;
+    }
+
+    #Video_CartItem {
+        padding: 4px;
+    }
+
+    .item_Purchased-VideoRing {
+        position: absolute;
+        width: 80px;
+        height: 170px;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 0px solid black;
+        border-top: 0px solid black;
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-top: -5px;
+        margin-left: -10px;
+    }
+
+    .item_Purchased-VideoEarring {
+        position: absolute;
+        width: 80px;
+        height: 170px;
+        display: flex;
+        align-items: center;
+        margin-left: -10px;
+    }
+
+    .Kav {
+        position: absolute;
+        border-right: 0px solid black;
+        margin-top: -70px;
+        width: 1px;
+        height: 0px;
+        margin-left: 00px;
+    }
+
+    .details-Material {
+        margin-top: -70px;
+        padding-right: 100px;
+        text-align: right;
+        font-size: 10px;
+        font-family: arial;
+        margin-left: -58px;
+        width: 97px;
+    }
+
+    .Purchase_Details {
+        margin-right: -65px;
+        margin-top: -40px;
+        text-align: right;
+        font-size: 12px;
+        font-family: arial;
+        width: 120px;
+    }
+
+    #purchase_Time {
+        /* position: relative; */
+        width: 120px;
+
+    }
+
+    #Nam {
+        margin-top: 22px;
+        width: 120px;
+    }
+
+    #Pric {
+        margin-top: 33px;
+        width: 120px;
+    }
+
+}

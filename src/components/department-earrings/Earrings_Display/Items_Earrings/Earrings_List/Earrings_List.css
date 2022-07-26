@@ -1,0 +1,42 @@
+#word-New {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 1170px;
+    font-weight: 550;
+}
+
+#words-New_Colection {
+    font-family: arial;
+    font-size: 11px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 690px;
+}
+
+@media(max-width: 900px) {
+    .Earrings_List {
+        width: 100%;
+        text-align: right;
+    }
+
+    #word-New {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 17px;
+        position: absolute;
+        margin-top: 75px;
+        right: 20px;
+        font-weight: 550;
+        color: black;
+    }
+
+    #words-New_Colection {
+        font-family: arial;
+        font-size: 11px;
+        position: absolute;
+        margin-top: 100px;
+        right: 20px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,145 @@
+.Ring_Singel_Item {
+    font-family: arial;
+}
+
+.Ring_Singel_Item-Details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: -45px;
+    color: black;
+}
+
+.Details-Video {
+    display: flex;
+    align-items: center;
+    height: 450px;
+    width: 485px;
+    background-color: white;
+    margin-top: 32px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.Details-Material {
+    margin-top: 300px;
+    text-align: right;
+    font-size: 10px;
+}
+
+.Details-Description_And_Commands {
+    text-align: right;
+    font-size: 13px;
+    width: 150px;
+}
+
+.btn_AddToCart {
+    border: solid black;
+    letter-spacing: 0.3px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.btn_AddToCart:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.btn_AddToCart:active {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+
+.player {
+    margin-left: 40px;
+    width: 400px;
+}
+
+
+#title {
+    font-size: 25px;
+}
+
+#discr {
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+@media(max-width: 900px) {
+    .Ring_Singel_Item {
+        font-family: arial;
+        width: 100%;
+    }
+
+    .Ring_Singel_Item-Details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+        color: black;
+    }
+
+    .Details-Video {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: 200px;
+        width: 180px;
+        background-color: white;
+        margin-top: -152px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        margin-left: 170px;
+        margin-right: 0px;
+    }
+
+    .Details-Material {
+        margin-top: 300px;
+        text-align: right;
+        font-size: 10px;
+        padding-right: 5px;
+    }
+
+    .Details-Description_And_Commands {
+        margin-top: 45px;
+        text-align: right;
+        font-size: 13px;
+        width: 140px;
+    }
+
+    .btn_AddToCart {
+        border: solid black;
+        letter-spacing: 0.3px;
+        color: white;
+        background-color: black;
+        width: 135px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .btn_AddToCart:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.788);
+    }
+
+    .player {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    #title {
+        font-size: 25px;
+    }
+
+    #discr {
+        font-size: 12px;
+        font-family: Tahoma;
+    }
+}

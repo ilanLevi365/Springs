@@ -1,0 +1,236 @@
+.Personal_Information-Filds {
+  margin-top: -57px;
+  width: 100%;
+  color: black;
+}
+
+#reactBootStrp {
+  position: absolute;
+  font-size: 12px;
+  margin-top: -90px;
+  right: -160px;
+  height: 100px;
+  width: 100px;
+}
+
+#message {
+  position: absolute;
+  align-items: center;
+  font-size: 12px;
+  color: red;
+  margin-top: -0px;
+  right: -685px;
+}
+
+.Filds-Text_Fields {
+  font-size: 9px;
+  margin-top: 10px;
+}
+
+.Text_Fields-Password {
+  display: flex;
+  width: 930px;
+}
+
+.Text_Fields-Name {
+  width: 930px;
+  display: flex;
+}
+
+.Personal_Information-Filds label {
+  font-size: 9px;
+  color: black;
+  margin-top: 1.5px;
+}
+
+.Create_Account-Div_Link {
+  position: absolute;
+  margin-left: 300px;
+  height: 30px;
+  top: 350px;
+}
+
+.Create_Account-Conditions {
+  margin-top: -10px;
+  font-size: xx-small;
+  width: 500px;
+  margin-left: 700px;
+  font-family: arial;
+  text-align: right;
+}
+
+input[type=checkbox] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  content: none;
+}
+
+input[type=checkbox]:before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  font-size: 10px;
+  color: transparent !important;
+  background: white;
+  display: black;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  margin-right: 7px;
+}
+
+input[type=checkbox]:checked:before {
+  color: white !important;
+  background: black;
+}
+
+a {
+  color: black;
+}
+
+.Div_Link-Btn {
+  margin-left: 270px;
+  border: solid black;
+  font-size: xx-small;
+  letter-spacing: 0.3px;
+  color: white;
+  background-color: black;
+  width: 248px;
+  height: 33px;
+}
+
+.Div_Link-Btn:hover {
+  cursor: pointer;
+  background-color: rgba(37, 35, 35, 0.945);
+}
+
+.Create_Account-Personal_Information {
+  font-size: 9px;
+  position: absolute;
+  text-align: right;
+  display: inline-block;
+  height: 30%;
+  width: 450px;
+  top: 70px;
+  font-size: xx-small;
+  margin-left: 10px;
+}
+
+@media(max-width: 900px) {
+  .Personal_Information-Filds {
+    margin-top: -30px;
+    width: 120%;
+    height: 100%;
+  }
+
+  #reactBootStrp {
+    position: absolute;
+    align-items: center;
+    font-size: 12px;
+    margin-top: -70px;
+    right: 74px;
+  }
+
+  .Create_Account-Personal_Information {
+    font-size: 9px;
+    position: absolute;
+    text-align: right;
+    display: inline-block;
+    height: 0%;
+    width: 100%;
+    top: 70px;
+    font-size: xx-small;
+    margin-left: 10px;
+  }
+
+  #message {
+    position: absolute;
+    align-items: center;
+    color: red;
+    margin-top: -15px;
+    right: -71px;
+  }
+
+  .Filds-Text_Fields {
+    font-size: 9px;
+    margin-top: 10px;
+  }
+
+  .Text_Fields-Password {
+    display: flex;
+    width: 350px;
+  }
+
+  .Text_Fields-Name {
+    width: 350px;
+    display: flex;
+  }
+
+  .Create_Account-Div_Link {
+    margin-left: 300px;
+    height: 30px;
+    bottom: -90px;
+    width: 0%;
+  }
+
+  .Personal_Information-Filds label {
+    font-size: 9px;
+    color: black;
+    margin-top: 1.5px;
+  }
+
+  .Create_Account-Conditions {
+    margin-top: 35px;
+    font-size: xx-small;
+    width: 500px;
+    margin-left: -140px;
+    font-family: arial;
+    text-align: right;
+    color: black;
+  }
+
+  input[type=checkbox] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+    content: none;
+  }
+
+  input[type=checkbox]:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 10px;
+    color: transparent !important;
+    background: white;
+    display: black;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin-right: 7px;
+  }
+
+  input[type=checkbox]:checked:before {
+    color: white !important;
+    background: black;
+  }
+
+
+  .Div_Link-Btn {
+    margin-left: -230px;
+    border: solid black;
+    font-size: xx-small;
+    letter-spacing: 0.3px;
+    color: white;
+    background-color: black;
+    width: 248px;
+    height: 33px;
+    margin-top: 100px;
+  }
+
+  .Div_Link-Btn:hover {
+    cursor: pointer;
+    background-color: rgba(37, 35, 35, 0.945);
+  }
+}

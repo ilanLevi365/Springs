@@ -1,0 +1,31 @@
+.Help {
+  text-align: center;
+}
+
+.Help-Word_Help {
+  font-family: arial;
+  margin-left: 830px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.Help-Category {
+  margin-top: 20px;
+}
+
+@media(max-width: 900px) {
+  .Help {
+    text-align: center;
+  }
+
+  .Help-Word_Help {
+    font-family: arial;
+    margin-left: 230px;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  .Help-Category {
+    margin-top: 20px;
+  }
+}

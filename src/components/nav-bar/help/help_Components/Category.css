@@ -1,0 +1,141 @@
+.Category-Exchanges_Returns, .Category-Shipping, .Category-Payment {
+  margin-top: -30px;
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  padding: 90px;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  font-family: arial;
+}
+
+.Category-Details_Exchanges_Returns {
+  position: absolute;
+  margin-left: 200px;
+  color: white;
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+}
+
+.Category-Details_Shipping {
+  position: absolute;
+  margin-left: 465px;
+  color: white;
+}
+
+.Category-Details_Payment {
+  position: absolute;
+  margin-left: 755px;
+  color: white;
+}
+
+.Category-Exchanges_Returns:hover~.Category-Details_Exchanges_Returns {
+  color: black;
+  box-shadow: 0px 0px 5px #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  width: 290px;
+  height: 155px;
+}
+
+.Category-Shipping:hover~.Category-Details_Shipping {
+  color: black;
+  box-shadow: 0px 0px 5px #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  width: 290px;
+  height: 155px;
+}
+
+.Category-Payment:hover~.Category-Details_Payment {
+  color: black;
+  box-shadow: 0px 0px 5px #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  width: 290px;
+  height: 155px;
+}
+
+span {
+  letter-spacing: 0.5px;
+}
+
+img {
+  width: 30px;
+}
+
+@media(max-width: 900px) {
+
+  .Category-Exchanges_Returns, .Category-Shipping, .Category-Payment {
+    margin-top: -100px;
+    display: inline-block;
+    height: 20px;
+    width: 180px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+    font-family: arial;
+  }
+
+  .Category-Details_Exchanges_Returns {
+    margin-top: -135px;
+    position: absolute;
+    margin-left: 45px;
+    color: white;
+  }
+
+  .Category-Details_Shipping {
+    margin-top: -130px;
+    position: absolute;
+    margin-left: 45px;
+    color: white;
+  }
+
+  .Category-Details_Payment {
+    margin-top: -130px;
+    position: absolute;
+    margin-left: 45px;
+    color: white;
+  }
+
+  .Category-Exchanges_Returns:hover~.Category-Details_Exchanges_Returns {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000;
+    padding-top: 40px;
+    width: 290px;
+    height: 140px;
+  }
+
+  .Category-Shipping:hover~.Category-Details_Shipping {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000;
+    padding-top: 40px;
+    width: 290px;
+    height: 135px;
+  }
+
+  .Category-Payment:hover~.Category-Details_Payment {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 5px #000;
+    padding-top: 40px;
+    width: 290px;
+    height: 140px;
+  }
+
+  span {
+    letter-spacing: 0.5px;
+  }
+
+  img {
+    width: 30px;
+  }
+}

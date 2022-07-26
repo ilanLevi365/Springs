@@ -1,0 +1,56 @@
+.Ring_List {
+    background-color: black;
+    height: 100%;
+}
+
+#word_New {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 1170px;
+    font-weight: 550;
+    background-color: black;
+    color: white;
+}
+
+#words_New_Colection {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: 11px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 690px;
+}
+
+@media(max-width: 900px) {
+    .Ring_List {
+        background-color: black;
+        width: 100%;
+        text-align: right;
+    }
+
+    #word_New {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 17px;
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 170px;
+        font-weight: 550;
+        background-color: black;
+        color: white;
+    }
+
+    #words_New_Colection {
+        background-color: black;
+        color: white;
+        font-family: arial;
+        font-size: 11px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 40px;
+        text-align: right;
+        width: 300px;
+    }
+}

@@ -1,0 +1,30 @@
+.Details_Payment, .Details_Shipping, .Details_Exchanges_Returns {
+  position: absolute;
+  height: 200px;
+  width: 276px;
+  text-align: right;
+  font-size: 9.5px;
+  font-family: arial;
+}
+
+span {
+  letter-spacing: 0.2px;
+}
+
+@media(max-width: 900px) {
+  .Details_Payment, .Details_Shipping, .Details_Exchanges_Returns {
+    margin-top: -20px;
+    position: absolute;
+    height: 200px;
+    width: 276px;
+    text-align: right;
+    font-size: 9.5px;
+    font-family: arial;
+    /* background-color: white; */
+    margin-bottom: 10px;
+  }
+
+  span {
+    letter-spacing: 0.2px;
+  }
+}

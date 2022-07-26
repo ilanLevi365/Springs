@@ -1,0 +1,271 @@
+.Rings {
+  margin-top: 120px;
+}
+
+.Rings-Option {
+  position: absolute;
+  margin-top: 20px;
+  display: table;
+}
+
+.Rings-Poster {
+  margin-top: 105px;
+}
+
+@keyframes Poster-Div_Img {
+  0% {
+    margin-top: -900px;
+  }
+
+  100% {
+    margin-top: -150px;
+  }
+}
+
+.Poster-Div_Img {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 445px;
+  width: 430px;
+  height: 430px;
+  animation: Poster-Div_Img 0.5s forwards;
+}
+
+#Img-Poster-Ring {
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: 425px;
+  border: 25px solid black;
+}
+
+.Poster-Div_Words {
+  position: absolute;
+  width: 100%;
+  margin-top: 200px;
+  text-align: center;
+  margin-left: -5px;
+}
+
+@keyframes Words_1 {
+  0% {
+    margin-left: -1500px;
+  }
+
+  100% {
+    margin-left: 65px;
+  }
+}
+
+#Words_1 {
+  margin-left: -1500px;
+  width: 225px;
+  animation: Words_1 0.5s forwards;
+}
+
+@keyframes Words_2 {
+  0% {
+    margin-top: -900px;
+  }
+
+  100% {
+    margin-top: -150px;
+  }
+}
+
+#Words_2 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -160px;
+  width: 100px;
+  background-color: rgb(63, 181, 185);
+}
+
+.Options-Earring {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 1243px;
+}
+
+.Earring-Right_Arrow {
+  position: absolute;
+}
+
+.Earring-Word {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -33px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Home-Word {
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 22px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Options-Home {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+.Options-Home:hover .Home-Left_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: -5px;
+}
+
+.Options-Earring:hover .Earring-Right_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: 5px;
+}
+
+@media(max-width: 900px) {
+
+  @keyframes Poster-Div_Img {
+    0% {
+      margin-top: -300px;
+    }
+
+    100% {
+      margin-top: 65px;
+    }
+  }
+
+  .Poster-Div_Img {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 445px;
+    width: 430px;
+    height: 430px;
+    animation: Poster-Div_Img 0.5s forwards;
+  }
+
+  .Poster-Div_Img {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    height: 390px;
+    animation: Poster-Div_Img 0.5s forwards;
+  }
+
+  #Img-Poster-Ring {
+    width: 200px;
+    height: 250px;
+    border: 25px solid black;
+  }
+
+
+  .Poster-Div_Words {
+    position: absolute;
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;
+  }
+
+  @keyframes Words_1 {
+    0% {
+      margin-left: -150px;
+    }
+
+    100% {
+      margin-left: 10px;
+    }
+  }
+
+  #Words_1 {
+    width: 200px;
+    margin-left: 10px;
+    animation: Words_1 0.5s forwards;
+  }
+  @keyframes Words_2 {
+    0% {
+      margin-top: -900px;
+    }
+
+    100% {
+      margin-top: -150px;
+    }
+  }
+
+  #Words_2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -160px;
+    width: 100px;
+    background-color: rgb(63, 181, 185);
+  }
+
+
+
+  #Words_2 {
+    position: absolute;
+    margin-left: -145px;
+    margin-top: 40px;
+    width: 100px;
+    background-color: rgb(63, 181, 185);
+  }
+
+  .Options-Earring {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -95px;
+  }
+
+
+  .Options-Home {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -95px;
+  }
+
+  .Earring-Right_Arrow {
+    position: absolute;
+  }
+
+  .Earring-Word {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: -33px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Home-Word {
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 22px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Rings-Right_Arrow {
+    position: absolute;
+  }
+
+  .Options-Earring:active .Earrings-Left_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: -35px;
+  }
+
+  .Options-Home:active .Rings-Right_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: 5px;
+  }
+
+}

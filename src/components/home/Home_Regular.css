@@ -1,0 +1,263 @@
+.Home_Regular {
+  margin-top: 15px;
+}
+
+.Home_Regular-Options {
+  position: absolute;
+  margin-top: 125px;
+  display: table;
+}
+
+.Options-Rings {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 1243px;
+}
+
+.Options-Earrings {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+.Rings-Right_Arrow {
+  position: absolute;
+}
+
+.Rings-Word {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -33px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Earrings-Word {
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 22px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Options-Earrings:hover .Earrings-Left_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: -5px;
+}
+
+.Options-Rings:hover .Rings-Right_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: 5px;
+}
+
+
+#Home_Regular-Img_Currency {
+  margin-left: 170px;
+  margin-top: -133px;
+  position: absolute;
+  width: 90px;
+}
+
+
+@keyframes Home_Regular-about_Us {
+  0% {
+    box-shadow: 0px 0px 5px #000;
+    color: black;
+    height: 55px;
+    width: 55px;
+    font-size: 15px;
+  }
+
+  100% {
+    box-shadow: 0px 0px 5px #000;
+    color: black;
+    height: 52px;
+    width: 52px;
+    font-size: 14px;
+  }
+}
+
+.Home_Regular-about_Us {
+  color: white;
+  height: 55px;
+  width: 55px;
+  right: 30px;
+  bottom: 30px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 0px #000;
+  animation: Home_Regular-about_Us 1s infinite;
+}
+
+#ImgHorse {
+  bottom: 0px;
+  position: absolute;
+  margin-left: 850px;
+  width: 100px;
+}
+
+@keyframes player-wrapper {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 797px;
+  }
+}
+
+.player-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  animation: player-wrapper 1s forwards
+}
+
+.Home_Regular-Ground {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+
+
+@media(max-width: 900px) {
+
+  #Home_Regular-Img_Currency {
+    margin-left: 50px;
+    margin-top: -83px;
+    position: absolute;
+    width: 50px;
+  }
+
+  #ImgHorse {
+    position: absolute;
+    margin-bottom: 47px;
+    margin-left: 210px;
+    width: 90px;
+  }
+
+  .Home_Regular-Ground {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+  }
+
+
+
+  .Options-Rings {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -95px;
+  }
+
+
+  .Options-Earrings {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -95px;
+  }
+
+  .Rings-Right_Arrow {
+    position: absolute;
+  }
+
+  .Rings-Word {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: -30px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Earrings-Word {
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 19px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Options-Earrings:active .Earrings-Left_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: -35px;
+  }
+
+  .Options-Rings:active .Rings-Right_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: 5px;
+  }
+
+  @keyframes player-wrapper {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 95%;
+    }
+  }
+
+  .player-wrapper {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px;
+    margin-top: 160px;
+    margin-left: 8px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    animation: player-wrapper 1s forwards
+  }
+
+  @keyframes Home_Regular-about_Us {
+    0% {
+      box-shadow: 0px 0px 0px #000;
+      color: black;
+      height: 0px;
+      width: 0px;
+      font-size: 0px;
+    }
+
+    100% {
+      box-shadow: 0px 0px 5px #000;
+      color: black;
+      height: 55px;
+      width: 55px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .Home_Regular-about_Us {
+    color: white;
+    height: 55px;
+    width: 55px;
+    right: 20px;
+    bottom: 90px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #000;
+    animation: Home_Start-about_U 0.8s ease-in-out 0s forwards, Home_Start-about_Us 1s ease-in-out 0s infinite;
+  }
+}

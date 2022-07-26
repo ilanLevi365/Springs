@@ -1,0 +1,69 @@
+.Login_To_Registration {
+  font-family: arial;
+  font-size: xx-small;
+  text-align: right;
+  padding: 0;
+  width: 100%;
+}
+
+.Login_To_Registration-Div_Word_Conecte {
+  font-size: 22.5px;
+  margin-bottom: 70px;
+}
+
+.Login_To_Registration-Div_Link {
+  margin-top: 110px;
+}
+
+.Div_Link-Btn {
+  border: solid black;
+  font-size: xx-small;
+  letter-spacing: 0.3px;
+  color: white;
+  background-color: black;
+  width: 248px;
+  height: 33px;
+}
+
+.Div_Link-Btn:hover {
+  cursor: pointer;
+  background-color: rgba(37, 35, 35, 0.945);
+}
+
+@media(max-width: 900px) {
+
+  .Login_To_Registration {
+    font-family: arial;
+    font-size: xx-small;
+    text-align: right;
+    padding: 0;
+    margin-left: -40px;
+  }
+
+  .Login_To_Registration-Div_Word_Conecte {
+    font-size: 22.5px;
+    margin-bottom: 60px;
+    padding: 0px;
+  }
+
+  .Login_To_Registration-Div_Link {
+    position: absolute;
+    margin-top: -30px;
+    left: 290px;
+  }
+
+  .Div_Conect-Btn {
+    border: solid black;
+    font-size: xx-small;
+    letter-spacing: 0.3px;
+    color: white;
+    background-color: black;
+    width: 248px;
+    height: 33px;
+  }
+
+  .Div_Link-Btn:hover {
+    cursor: pointer;
+    background-color: rgba(37, 35, 35, 0.945);
+  }
+}

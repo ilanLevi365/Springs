@@ -1,0 +1,583 @@
+.Home_Start {
+  margin-top: 15px;
+}
+
+.Home_Start-Options {
+  position: absolute;
+  margin-top: 125px;
+  display: table;
+}
+
+.Options-Rings {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 1243px;
+}
+
+.Options-Earrings {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+.Rings-Right_Arrow {
+  position: absolute;
+}
+
+.Rings-Word {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -33px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Earrings-Word {
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 22px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Options-Earrings:hover .Earrings-Left_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: -5px;
+}
+
+.Options-Rings:hover .Rings-Right_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: 5px;
+}
+
+
+@keyframes fade_In_Currency {
+  0% {
+    margin-left: 170px;
+    margin-top: -230px;
+  }
+
+  100% {
+    margin-left: 170px;
+    margin-top: -133px;
+  }
+}
+
+#Home_Start-Img_Currency {
+  margin-left: 170px;
+  margin-top: -245px;
+  animation: fade_In_Currency 1.5s ease-in-out 0s forwards;
+  position: absolute;
+  width: 100px;
+}
+
+.Home_Start-Img_Diamonds {
+  height: 274px;
+  width: 100%;
+}
+
+@keyframes Img_Diamonds2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#Img_Diamonds2 {
+  opacity: 0;
+  position: absolute;
+  width: 515px;
+  margin-left: 396.5px;
+  animation: Img_Diamonds2 0.4s ease-in-out 9.8s forwards;
+}
+
+.imgDiamonds2 {
+  opacity: 0;
+  animation: Img_Diamonds2 0.4s ease-in-out 9.8s forwards;
+}
+
+@keyframes Img_Diamonds1 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes Img_Diamonds12 {
+  0% {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  100% {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+
+#Img_Diamonds1 {
+  border: 1px solid white;
+  border-bottom: 1px solid white;
+  opacity: 1;
+  position: absolute;
+  width: 515px;
+  margin-left: 396.5px;
+  animation: Img_Diamonds12 0.4s ease-in-out 8.5s forwards, Img_Diamonds1 0.7s ease-in-out 9.7s forwards;
+}
+
+@keyframes fade_In_Horse {
+  0% {
+    margin-top: -26px;
+    margin-left: 1150px;
+  }
+
+  25% {
+    margin-top: -36px;
+    margin-left: 1105px;
+  }
+
+  50% {
+    margin-top: -26px;
+    margin-left: 1070px;
+  }
+
+  75% {
+    margin-top: -36px;
+    margin-left: 1020px;
+  }
+
+  100% {
+    margin-top: -26px;
+    margin-left: 970px;
+  }
+}
+
+.Home_Start-Img_Horse {
+  height: 200px;
+  width: 100%;
+}
+
+#Img_Horse {
+  position: absolute;
+  margin-top: -26px;
+  margin-left: 1150px;
+  animation: fade_In_Horse 0.7s ease-in-out 1.2s forwards;
+  width: 127px;
+}
+
+@keyframes fade_In_Sescription {
+  0% {
+    color: white;
+    background-color: white;
+  }
+
+  100% {
+    color: white;
+    background-color: black;
+  }
+}
+
+.Home_Start-Company_Sescription {
+  font-family: 'Courier New';
+  display: inline-block;
+  position: absolute;
+  color: white;
+  animation: fade_In_Sescription 1.7s ease-in-out 2s forwards;
+  height: 35px;
+  background-color: white;
+  margin-top: 165px;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+}
+
+.Home_Start-Ground {
+  width: 100%;
+  height: 9.7px;
+  background-color: black;
+}
+
+.div_Sale {
+  align-items: center;
+}
+
+@keyframes sale_Right {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 355px;
+  }
+}
+
+#sale_Right {
+  opacity: 1;
+  position: absolute;
+  right: 140px;
+  width: 170px;
+  height: 0px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  animation: sale_Right 1s ease-in-out 5s forwards;
+}
+
+@keyframes Rings_Video {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Rings_Video {
+  opacity: 0;
+  animation: Rings_Video 1s ease-in-out 6s forwards;
+}
+
+#sale_Left {
+  opacity: 1;
+  position: absolute;
+  left: 140px;
+  width: 170px;
+  height: 0px;
+  background-color: black;
+  animation: sale_Right 1s ease-in-out 5s forwards;
+}
+
+@keyframes Earrings_Vi {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Earrings_Vi {
+  opacity: 0;
+  height: 110px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  animation: Earrings_Vi 1s ease-in-out 6s forwards;
+}
+
+
+
+@media(max-width: 900px) {
+
+
+  @keyframes fade_In_Currency {
+    0% {
+      margin-left: 50px;
+      margin-top: -133px;
+    }
+
+    100% {
+      margin-left: 50px;
+      margin-top: -83px;
+    }
+  }
+
+  #Home_Start-Img_Currency {
+    margin-left: 50px;
+    margin-top: -133px;
+    animation: fade_In_Currency 2s ease-in-out 0s forwards;
+    position: absolute;
+    width: 50px;
+  }
+
+  .Home_Start-Img_Diamonds {
+    height: 508px;
+    width: 100%;
+  }
+
+  #Img_Diamonds1 {
+    width: 340px;
+    margin-top: 175px;
+    margin-left: 23px;
+  }
+
+  .Home_Start-Img_Horse {
+    height: 0px;
+    width: 100%;
+  }
+
+  @keyframes fade_In_Horse {
+    0% {
+      margin-top: -134px;
+      margin-left: 300px;
+    }
+
+    25% {
+      margin-top: -138px;
+      margin-left: 275px;
+    }
+
+    50% {
+      margin-top: -134px;
+      margin-left: 250px;
+    }
+
+    75% {
+      margin-top: -138px;
+      margin-left: 225px;
+    }
+
+    100% {
+      margin-top: -134px;
+      margin-left: 200px;
+    }
+  }
+
+  #Img_Horse {
+    position: absolute;
+    margin-top: -134px;
+    margin-left: 300px;
+    animation: fade_In_Horse 0.8s ease-in-out 1.5s forwards;
+    width: 75px;
+  }
+
+  @keyframes fade_In_Sescription {
+    0% {
+      color: white;
+      background-color: white;
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+      color: white;
+      background-color: black;
+    }
+  }
+
+  .Home_Start-Company_Sescription {
+    opacity: 0;
+    font-family: 'Courier New';
+    display: inline-block;
+    position: absolute;
+    color: white;
+    animation: fade_In_Sescription 1.7s ease-in-out 2.5s forwards;
+    height: 15px;
+    background-color: white;
+    margin-top: -115px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .Home_Start-Ground {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+  }
+
+  .Options-Rings {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -95px;
+  }
+
+
+  .Options-Earrings {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -95px;
+  }
+
+  .Rings-Right_Arrow {
+    position: absolute;
+  }
+
+  .Rings-Word {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: -30px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Earrings-Word {
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 19px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Options-Earrings:active .Earrings-Left_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: -35px;
+  }
+
+  .Options-Rings:active .Rings-Right_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: 5px;
+  }
+
+  @keyframes Home_Start-about_U {
+    0% {
+      box-shadow: 0px 0px 0px #000;
+      color: black;
+      height: 0px;
+      width: 0px;
+      font-size: 0px;
+    }
+
+    100% {
+      box-shadow: 0px 0px 5px #000;
+      color: black;
+      height: 55px;
+      width: 55px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .Home_Start-about_Us {
+    color: white;
+    height: 55px;
+    width: 55px;
+    right: 30px;
+    bottom: 100px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0px 0px 0px #000;
+    animation: Home_Start-about_U 0.8s ease-in-out 0s forwards, Home_Start-about_Us 1s ease-in-out 0s infinite;
+  }
+
+  @keyframes sale_Right {
+    0% {
+      height: 0px;
+    }
+
+    100% {
+      height: 120px;
+    }
+  }
+
+  #sale_Right {
+    opacity: 1;
+    position: absolute;
+    right: 85px;
+    width: 100px;
+    height: 0px;
+    top: 90px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    animation: sale_Right 1s ease-in-out 4s forwards;
+  }
+
+  @keyframes Rings_Video {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+      margin-bottom: 0px;
+    }
+  }
+
+  .Rings_Video {
+    opacity: 0;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    animation: Rings_Video 1s ease-in-out 5s forwards;
+  }
+
+  #sale_Left {
+    opacity: 1;
+    position: absolute;
+    left: 90px;
+    width: 90px;
+    height: 0px;
+    top: 90px;
+    animation: sale_Right 1s ease-in-out 4s forwards;
+  }
+
+  @keyframes Earrings_Vi {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .Earrings_Vi {
+    opacity: 0;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    animation: Earrings_Vi 1s ease-in-out 5s forwards;
+  }
+
+  @keyframes background_Earrings {
+    0% {
+      width: 97px;
+      height: 0px;
+    }
+
+    100% {
+      width: 97px;
+      height: 120px;
+    }
+  }
+
+  #background_Earrings {
+    position: absolute;
+    background-color: black;
+    width: 97px;
+    height: 0px;
+    top: 90px;
+    left: 93px;
+    animation: background_Earrings 1s ease-in-out 4s forwards;
+  }
+
+  @keyframes Img_Diamonds2 {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #Img_Diamonds2 {
+    opacity: 0;
+    position: absolute;
+    width:100%;
+    margin-left: 0px;
+    margin-top: 164px;
+    animation: Img_Diamonds2 0.7s ease-in-out 9.8s forwards;
+  }
+
+  .imgDiamonds2 {
+    opacity: 0;
+    animation: Img_Diamonds2 0.7s ease-in-out 9.8s forwards;
+  }
+}

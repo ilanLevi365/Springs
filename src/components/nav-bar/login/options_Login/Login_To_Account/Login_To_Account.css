@@ -1,0 +1,123 @@
+.Login_To_Account {
+  font-family: arial;
+  font-size: xx-small;
+  text-align: right;
+  width: 100%;
+}
+
+.Login_To_Account-Div_Word_Conecte {
+  font-size: 22.5px;
+  margin-bottom: 30px;
+  margin-left: 187px;
+}
+
+.Login_To_Account-Filds {
+  margin-left: 262px;
+}
+
+.Filds-Text_Field label {
+  font-size: 9px;
+  color: black;
+  margin-top: 3.5px;
+}
+
+.Login_To_Account-Div_Conect {
+  margin-top: 100px;
+}
+
+.Div_Conect-Btn {
+  border: solid black;
+  font-size: xx-small;
+  letter-spacing: 0.3px;
+  color: white;
+  background-color: black;
+  width: 248px;
+  height: 33px;
+}
+
+.Div_Conect-Btn:hover {
+  cursor: pointer;
+  background-color: rgba(37, 35, 35, 0.945);
+}
+
+#new_message {
+  position: absolute;
+  align-items: center;
+  font-size: 12px;
+  color: red;
+  margin-top: 40px;
+  right: 0px;
+}
+
+#reactBootStrap {
+  position: absolute;
+  top: -48px;
+  margin-left: 21.5px;
+  color: black;
+  /* background-color: black; */
+}
+
+@media(max-width: 900px) {
+
+  .Login_To_Account {
+    font-family: arial;
+    font-size: xx-small;
+    text-align: right;
+    width: 400px;
+    margin-left: 70px;
+  }
+
+  .Login_To_Account-Div_Word_Conecte {
+    font-size: 22.5px;
+    margin-bottom: 30px;
+    margin-left: 354px;
+    margin-top: -20px;
+  }
+
+  .Login_To_Account-Filds {
+    margin-left: 162px;
+  }
+
+  .Filds-Text_Field label {
+    font-size: 9px;
+    color: black;
+    margin-top: 3.5px;
+  }
+
+  .Login_To_Account-Div_Conect {
+    margin-top: 60px;
+  }
+
+  .Div_Conect-Btn {
+    margin-left: 162px;
+    border: solid black;
+    font-size: xx-small;
+    letter-spacing: 0.3px;
+    color: white;
+    background-color: black;
+    width: 248px;
+    height: 33px;
+  }
+
+  .Div_Conect-Btn:hover {
+    cursor: pointer;
+    background-color: rgba(37, 35, 35, 0.945);
+  }
+
+  #new_message {
+    position: absolute;
+    /* align-items: center; */
+    font-size: 12px;
+    color: red;
+    margin-top: 20px;
+    margin-right:-105px;
+  }
+
+  #reactBootStrap {
+    position: absolute;
+    top:0px;
+    margin-top: -30px;
+    margin-left: 260px;
+    color: black;
+  }
+}

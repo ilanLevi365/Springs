@@ -1,0 +1,155 @@
+.Crt_Item {
+    display: flex;
+    font-family: arial;
+    letter-spacing: 0.2px;
+    padding: 25px;
+}
+
+.Crt_Item-Description_Commands {
+    padding-right: 20px;
+    margin-top: 59px;
+    width: 100px;
+}
+
+.Crt_Item-Video_Ring{
+    width: 270px;
+    height: 370px;
+    border: 1px solid black;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.Crt_Item-Video_Earring{
+    width: 270px;
+    height: 370px;
+    margin-top: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#Video_Crt_Item {
+    margin-top: -20px;
+}
+
+#Name {
+    font-size: 11px;
+}
+
+#Carat {
+    font-size: 11px;
+    margin-top: -7px;
+}
+
+#Price {
+    font-weight: bold;
+    font-size: 10.5px;
+    padding-top: 12px;
+}
+
+.Description_Commands-AddToCart {
+    font-family: arial;
+    margin-left: 38px;
+    width: 60px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+#DeleteIcon {
+    margin-right: -2px;
+    font-size: 16px;
+}
+
+#plus_Minus {
+    font-size: 18px;
+}
+
+#DeleteIcon, #plus_Minus:hover {
+    cursor: pointer;
+}
+
+#qty {
+    margin-top: 14px;
+}
+
+@media(max-width: 900px) {
+    .Crt_Item {
+        display: flex;
+        font-family: arial;
+        letter-spacing: 0.2px;
+        padding: 25px;
+    }
+
+    .Crt_Item-Description_Commands {
+        padding-right: 20px;
+        margin-top: 59px;
+        width: 100px;
+    }
+
+    .Crt_Item-Video_Ring {
+        width: 130px;
+        height: 180px;
+        border: 1px solid black;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Crt_Item-Video_Earring {
+        width: 130px;
+        height: 180px;
+        border: 1px solid black;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    #Video_Crt_Item {
+        margin-top: -20px;
+    }
+
+    #Name {
+        font-size: 11px;
+    }
+
+    #Carat {
+        font-size: 11px;
+        margin-top: -7px;
+    }
+
+    #Price {
+        font-weight: bold;
+        font-size: 10.5px;
+        padding-top: 12px;
+    }
+
+    .Description_Commands-AddToCart {
+        font-family: arial;
+        margin-left: 38px;
+        width: 60px;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+    }
+
+    #DeleteIcon {
+        margin-right: -2px;
+        font-size: 16px;
+    }
+
+    #plus_Minus {
+        font-size: 18px;
+    }
+
+    #DeleteIcon, #plus_Minus:hover {
+        cursor: pointer;
+    }
+
+    #qty {
+        margin-top: 14px;
+    }
+}

@@ -1,0 +1,240 @@
+.Earrings {
+  margin-top: 120px;
+}
+
+
+
+.Earrings-Poster {
+  margin-top: 105px;
+}
+
+@keyframes Poster-Div_Imag {
+  0% {
+    margin-left: -500px;
+  }
+
+  100% {
+    margin-left: 345px;
+  }
+}
+
+.Poster-Div_Imag {
+  position: absolute;
+  margin-top: -120px;
+  margin-left: -500px;
+  width: 430px;
+  height: 430px;
+  animation: Poster-Div_Imag 0.5s forwards;
+}
+
+#Img-Poster-Earrings {
+  width: 567px;
+  border: 25px solid black;
+}
+
+@keyframes Poster-Div_Word {
+  0% {
+    margin-top: -295px;
+    margin-left: 700px;
+  }
+
+  100% {
+    margin-top: 160px;
+  }
+}
+
+.Poster-Div_Word {
+  position: absolute;
+  width: 1280px;
+  margin-top: -295px;
+  text-align: center;
+  margin-left: -5px;
+  animation: Poster-Div_Word 0.5s forwards;
+}
+
+#Words_1 {
+  margin-left: 65px;
+  width: 225px;
+}
+
+#Words_2 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -160px;
+  width: 100px;
+  background-color: rgb(94, 184, 211);
+}
+
+.Earrings-Option {
+  position: absolute;
+  margin-top: 20px;
+  display: table;
+}
+
+.Option-Home {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 1243px;
+}
+
+.Option-Rings {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+.Home-Right_Arrow {
+  position: absolute;
+}
+
+.Earring-Word {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -33px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Rings_Word {
+  position: absolute;
+  margin-top: -47px;
+  margin-left: 22px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Home_Word {
+  position: absolute;
+  margin-top: 38px;
+  margin-left: -23px;
+  font-size: 11px;
+  font-family: arial;
+  letter-spacing: 0.3px;
+}
+
+.Option-Rings:hover .Rings-Left_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: -5px;
+}
+
+.Option-Home:hover .Home-Right_Arrow {
+  transition: all 0.5s ease-in-out;
+  margin-left: 5px;
+}
+
+
+@media(max-width: 900px) {
+  @keyframes Poster-Div_Imag {
+    0% {
+      margin-left: -100px;
+    }
+
+    100% {
+      margin-left: 0px;
+    }
+  }
+
+  .Poster-Div_Imag {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    height: 390px;
+    animation: Poster-Div_Imag 0.5s forwards;
+  }
+
+  #Img-Poster-Earrings {
+    width: 290px;
+    border: 25px solid black;
+  }
+
+  @keyframes Poster-Div_Word {
+    0% {
+      margin-top: -295px;
+    }
+
+    100% {
+      margin-top: 160px;
+      left: 0px;
+    }
+  }
+
+  .Poster-Div_Word {
+    position: absolute;
+    width: 100%;
+    margin-top: 190px;
+    left: 0px;
+    animation: Poster-Div_Word 0.5s forwards;
+  }
+
+  #Words_1 {
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  #Words_2 {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 40px;
+    width: 100px;
+    background-color: rgb(63, 181, 185);
+  }
+
+  .Option-Home {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -95px;
+  }
+
+
+  .Option-Rings {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -95px;
+  }
+
+  .Earring-Right_Arrow {
+    position: absolute;
+  }
+
+  .Earring-Word {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: -33px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Home-Word {
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 22px;
+    font-size: 11px;
+    font-family: arial;
+    letter-spacing: 0.3px;
+  }
+
+  .Rings-Right_Arrow {
+    position: absolute;
+  }
+
+  .Options-Earring:active .Earrings-Left_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: -35px;
+  }
+
+  .Options-Home:active .Rings-Right_Arrow {
+    transition: all 0.5s ease-in-out;
+    margin-left: 5px;
+  }
+}

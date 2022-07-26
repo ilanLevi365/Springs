@@ -1,0 +1,168 @@
+.Creating_Nav_Bar_Black {
+    display: flex;
+    font-family: arial;
+    position: absolute;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.Creating_Nav_Bar_Black-Link {
+    letter-spacing: 0.3px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.Creating_Nav_Bar_Black-Profile {
+    position: absolute;
+    letter-spacing: 0.3px;
+    color: white;
+    text-decoration: none;
+    left: 305px;
+    margin-top: -82px;
+    padding: 2px;
+}
+
+.Link-Options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.Options-Choice {
+    font-size: xx-small;
+    margin-top: -52px;
+}
+
+.Options-Search1 {
+    margin-left: 46px;
+    font-size: x-small;
+    margin-top: -55px;
+}
+
+.Options-Search2 {
+    font-family: arial;
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 63px;
+}
+
+.Options-Logo {
+    margin-top: -19px;
+    margin-left: 710px;
+    width: 150px;
+}
+
+#Hour,
+#Minute,
+#Second {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#Hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#Minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+
+#Second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+.hands {
+    color: white;
+    position: absolute;
+    top: 4px;
+    margin-left: 756px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+@media(max-width: 900px) {
+    .hands {
+        position: absolute;
+        top: 6px;
+        right: 118px;
+        border-radius: 50%;
+        width: 4px;
+        height: 4px;
+    }
+    .Creating_Nav_Bar_Black-Profile {
+        position: absolute;
+        letter-spacing: 0.3px;
+        color: white;
+        text-decoration: none;
+        left: 175px;
+        margin-top: -35px;
+        padding: 2px;
+    }
+    #clockContainer {
+        position: relative;
+        margin: auto;
+        height: 35px;
+        width: 35px;
+        background-size: 100%;
+    }
+
+    #Hour,
+    #Minute,
+    #Second {
+        position: absolute;
+        background: white;
+        border-radius: 10px;
+        transform-origin: bottom;
+    }
+
+    .Creating_Nav_Bar_Black-Link {
+        margin-left: 5px;
+
+    }
+
+    .Options-Choice {
+        margin-top: -28px;
+        flex-grow: 1;
+        display: inline-block;
+    }
+
+    .Options-Search1 {
+        margin-left: 0px;
+        font-size: x-small;
+        margin-top: -31px;
+    }
+
+    .Options-Search2 {
+        font-family: arial;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 17px;
+    }
+
+    .Options-Logo {
+        margin-top: -15px;
+        margin-left: 60px;
+        width: 80px;
+    }
+}
