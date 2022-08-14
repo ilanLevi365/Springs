@@ -13,7 +13,6 @@ export default () => {
         };
         try {
             let get_Shopping_Archive = await fetch('http://localhost:5000');
-            console.log('BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB');
         } catch (e) {
             console.log(e);
         }
